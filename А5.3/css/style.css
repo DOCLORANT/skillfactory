@@ -1,0 +1,24 @@
+.col {
+    height: 100px;
+    margin-top: 100px;
+}
+
+.container .row .square1 {
+    background-color: #801B14;
+}
+
+.square2 {
+    background: #F2E4A4;
+}
+
+.square3 {
+    background: #A19D77;
+}
+
+.square4 {
+    background: #2A2B24;
+}
+
+.square5 {
+    background: #E0493F;
+}
