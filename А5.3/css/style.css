@@ -2,32 +2,40 @@
     box-sizing: border-box;
 }
 
-.header1 {
-    min-height: 40px;
-    background-color: #6d9eeb;
-}
-
-.main1 {
-    min-height: calc(100vh - 80px);
-    background-color: #cfe2f3;
-}
-
-.maiRevers {
-    flex-direction: row-reverse;
-}
-
-.aside1 {
-    min-height: calc(100vh - 40px);
-    background-color: #0b5394;
-}
-
-.footer1 {
-    min-height: 40px;
-    background-color: #6fa8dc;
-}
-
-/* чапоовпро */
-/* style="height: 40px; background-color: #6d9eeb;">header  */
-/* style="height: calc(100vh - 40px); background-color: #0b5394;" main */
-/* style="height: calc(100vh - 80px); background-color: #cfe2f3;">aside */
-/* style="height: 40px; background-color: #6fa8dc;">footer */
+form {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+   }
+   
+   h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 24px;
+    text-transform: uppercase;
+   }
+   
+   .container {
+    padding: 40px 0;
+    margin-top: 100px;
+    background: #eee;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px 1px rgba(0,0,0,.2);
+   }
+   
+   button {
+    height: 30px;
+    padding: 0 .75rem;
+   }
+   
+   .result {
+    width: 300px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 10px;
+   }.btn {
+    padding: 0 5px;
+   }
