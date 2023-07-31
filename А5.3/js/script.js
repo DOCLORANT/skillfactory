@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const render = data => {
   const card =
     <div class="person">
@@ -17,3 +18,6 @@ $.getJSON(
     render(data)
   }
 );
+=======
+$.getJSON('https://swapi.co/api/people/1/', function (data) { console.log(data); });
+>>>>>>> d0d2daf6eac6859462d7a3f45f976076c112c153
